@@ -8,6 +8,13 @@
 body{
     background-color: #eaeff7;
 }
+.dob{
+    
+    color: #080808;
+    font-weight: 500;
+    
+    padding: 30px;
+}
 .container{
     width: 40%;
     min-width: 450px;
@@ -25,10 +32,12 @@ body{
 }
 .container *{
     font-family: "Poppins",sans-serif;
-    border: none;
-    outline: none;
+    border: 5px;
+    outline: 5px;
 }
 .inputs-wrapper{
+    display: flex;
+    flex-direction: row;
     background-color: #ce05a6e6;
     padding: 30px 25px;
     border-radius: 8px;
@@ -42,6 +51,7 @@ button{
     color: #080808;
     font-weight: 500;
     border-radius: 5px;
+    margin: 20px;
 }
 input{
     width: 60%;
